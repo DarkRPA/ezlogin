@@ -1,0 +1,9 @@
+{
+  "package": "org.darkrpa.mods.ezlogin.ezlogin.mixins",
+  "server": [
+    "OnPlayerJoinMixin",
+    "OnPlayerLeaveMixin",
+    "ServerPlayerEntityMixin",
+    "ServerPlayerInteractionManagerMixin"
+  ]
+}

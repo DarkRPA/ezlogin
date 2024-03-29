@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ezlogin",
+  "version": "${version}",
+  "name": "Erios's EZLogin",
+  "description": "Why is it so hard to find simple registering mods? Damn",
+  "authors": [
+    "DarkRPA"
+  ],
+  "contact": {
+    "repo": "https://github.com/Usuario/untitled"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ezlogin/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.darkrpa.mods.ezlogin.ezlogin.Main"
+    ]
+  },
+  "mixins": [
+    "ezlogin.mixin.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
